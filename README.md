@@ -8,7 +8,7 @@ I'm still working on improvement and clean ups.
 Hack is now based almost on pure OpenCore patches and hack. I followed [this guide](https://dortania.github.io/OpenCore-Install-Guide/) and [this tool](https://opencore.slowgeek.com/). 
 
 Huge thanks to [Acidanthera team](https://github.com/acidanthera) for [OpenCore](https://github.com/acidanthera/OpenCorePkg).\
-Extra credit goes to [@usr-sse2](https://www.hackintoshshop.com/2810/hackintosh-big-sur-guide/) for the most fail-safe comprehensive guide and base image file.
+Extra credit goes to [hackintosh shop](https://www.hackintoshshop.com/2810/hackintosh-big-sur-guide/) for the most fail-safe comprehensive guide and base image file.
 
 ## Installation instructions
 
