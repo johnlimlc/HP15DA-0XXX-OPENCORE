@@ -14,8 +14,8 @@ Extra credit goes to [hackintosh shop](https://www.hackintoshshop.com/2810/hacki
 
 1. Put whole EFI folder into you EFI partition (you can try USB drive at first).
 2. Generate your own serial numbers with [GENSMBIOS](https://github.com/corpnewt/GenSMBIOS) generator and change corresponding values (MLB, SystemSerialNumber, SystemUUID) in EFI/OC/config.plist according this [GUIDE](https://dortania.github.io/OpenCore-Install-Guide/config-laptop.plist/kaby-lake.html#starting-point).
-3. [Pay attention to HP Users:](https://dortania.github.io/OpenCore-Install-Guide/config-laptop.plist/kaby-lake.html#cleaning-up).
-4 Boot to macOS.\
+3. [Pay attention for HP Users:](https://dortania.github.io/OpenCore-Install-Guide/config-laptop.plist/kaby-lake.html#cleaning-up).
+4. Boot to macOS.
 5. **IMPORTANT!** If you want to install macOS, you need to change property **ScanPolicy** to **0** along with **ShowPicker** to **true** in EFI/OC/config.plist otherwise you don't see BaseSystem option in OpenCore boot menu!
 
 ### My configuration
