@@ -1,6 +1,6 @@
 # HP15DA-0XXX-OPENCORE
-Opencore Hackintosh for HP 15-da0xxx. I'm using always latest BIOS version, OpenCore, additional kexts and macOS.\
-**Current version is 100% macOS 11.1 Big Sur compatible!**\
+Opencore Hackintosh for HP 15-da0xxx. I'm using always latest BIOS version, OpenCore 0.7, additional kexts and macOS.\
+**Current version is 100% macOS 11.4 Big Sur compatible!**\
 For my specific laptop configuration almost everything works except WiFi which I am planning to upgrade to Intel AX200.\
 I'm still working on improvement and clean ups.
 
