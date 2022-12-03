@@ -1,6 +1,6 @@
 # HP15DA-0XXX-OPENCORE
-Opencore Hackintosh for HP 15-da0xxx. I'm using always latest BIOS version, OpenCore 0.7, additional kexts and macOS.\
-**Current version is 100% macOS 11.4 Big Sur compatible!**\
+Opencore Hackintosh for HP 15-da0xxx. I'm using always latest BIOS version, OpenCore 0.8.6, additional kexts and macOS.\
+**Current version is 100% macOS 13.0.1 Ventura compatible!**\
 For my specific laptop configuration almost everything works except WiFi which I am planning to upgrade to Intel AX200.\
 I'm still working on improvement and clean ups.
 
@@ -28,14 +28,9 @@ Extra credit goes to [hackintosh shop](https://www.hackintoshshop.com/2810/hacki
 
 ## BIOS settings
 
-Currently I'm using BIOS F.33. and latest released version of macOS 11.1 Big Sur.\
+Currently I'm using BIOS F.42. and latest released version of macOS 13.0.1 Ventura.\
 Start with BIOS reset to defaults and then disable all kind of security and TPM.
 System works well with Fastboot enabled, but for debugging and playing with your setup is better to disable Fast Boot.
 It's also recommended to disable Intel TXT technology and then disable Virtualization Technology for Directed I/O (VTd). OpenCore config disables this instead.
 
-### Currently not working + solutions
-
-- Bundled Realtek RTL8821CE 802.11ac PCIe Adapter\
-  - Need to be replaced (cca. 15 USD) solution is [Fenvi Dual Band Wireless M.2 Wifi6 Intel AX200 2974Mbps Bluetooth 5.1 802.11ax MU-MIMO NGFF Laptop WiFi Card AX200NGW](https://www.aliexpress.com/item/4000563277082.html?spm=a2g0o.productlist.0.0.4b394d15rRh1vt&algo_pvid=cb56b6f4-8257-4db8-ab80-e0234487d7cf&algo_expid=cb56b6f4-8257-4db8-ab80-e0234487d7cf-8&btsid=0b0a555816095040205066880eafad&ws_ab_test=searchweb0_0,searchweb201602_,searchweb201603_) that fits into laptop perfectly. The best thing - there is already proven working kext (https://openintelwireless.github.io/itlwm/Compat.html).
-- Hibernation (I just turn it off).
-- DRM (Apple TV+, Netflix in Safari), but there is workaround use different browser ([Vivaldi](https://vivaldi.com) for me). There is also web version of [Apple TV+](https://tv.apple.com) that works from browser.
+Many thanks to all who make it works!
