@@ -5,10 +5,10 @@ For my specific laptop configuration almost everything works except WiFi which I
 I'm still working on improvement and clean ups.
 
 ## Massive overhaul
-Hack is now based almost on pure OpenCore patches and hack. I followed [this guide](https://dortania.github.io/OpenCore-Install-Guide/) and [this tool](https://opencore.slowgeek.com/). 
+Hack is now based almost on pure OpenCore patches and hack. I followed [this guide](https://dortania.github.io/OpenCore-Install-Guide/) and [this tool](https://github.com/ic005k/OCAuxiliaryTools). 
 
 Huge thanks to [Acidanthera team](https://github.com/acidanthera) for [OpenCore](https://github.com/acidanthera/OpenCorePkg).\
-Extra credit goes to [hackintosh shop](https://www.hackintoshshop.com/2810/hackintosh-big-sur-guide/) for the most fail-safe comprehensive guide and base image file.
+Extra credit goes to [olarila](https://www.olarila.com) for the most fail-safe comprehensive guide and base image file.
 
 ## Installation instructions
 
@@ -31,6 +31,5 @@ Extra credit goes to [hackintosh shop](https://www.hackintoshshop.com/2810/hacki
 Currently I'm using BIOS F.42. and latest released version of macOS 13.0.1 Ventura.\
 Start with BIOS reset to defaults and then disable all kind of security and TPM.
 System works well with Fastboot enabled, but for debugging and playing with your setup is better to disable Fast Boot.
-It's also recommended to disable Intel TXT technology and then disable Virtualization Technology for Directed I/O (VTd). OpenCore config disables this instead.
 
 Many thanks to all who make it works!
